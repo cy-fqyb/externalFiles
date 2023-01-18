@@ -5,7 +5,8 @@ body::-webkit-scrollbar {
 .neko {
     width: 64px;
     height: 64px;
-    background-image: url("https://bu.dusays.com/2022/07/20/62d812db74be9.png");
+    background: url("https: //s1.vika.cn/space/2023/01/18/8f29d8c2a0c548d799990ee14aac1f89") center;
+    background-size: 150%;
     position: absolute;
     right: 32px;
     background-repeat: no-repeat;
