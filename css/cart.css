@@ -5,8 +5,7 @@ body::-webkit-scrollbar {
 .neko {
     width: 64px;
     height: 64px;
-    background: url("https: //s1.vika.cn/space/2023/01/18/8f29d8c2a0c548d799990ee14aac1f89") center;
-    background-size: 150%;
+    background-image: url("https://bu.dusays.com/2022/07/20/62d812db74be9.png");
     position: absolute;
     right: 32px;
     background-repeat: no-repeat;
@@ -67,17 +66,8 @@ body::-webkit-scrollbar {
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: rgba(66, 202, 252, 0.7);
-        background-image: -webkit-linear-gradient(45deg, rgba(66,
-            202,
-            252,
-            0.7) 25%, transparent 25%, transparent 50%, rgba(66,
-                202,
-                252,
-                0.7) 50%, rgba(66,
-                    202,
-                    252,
-                    0.7) 75%, transparent 75%, transparent);
+        background-color: rgb(255 255 255 / .3);
+        background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
         border-radius: 2em
     }
 
