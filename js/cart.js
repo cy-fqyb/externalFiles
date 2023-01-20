@@ -154,3 +154,22 @@ if (document.body.clientWidth > 992) {
         */
   });
 }
+
+
+// tag
+// 定义随机颜色
+   //颜色对象
+function Color(){
+  let r = Math.floor(Math.random()*255);
+  let g = Math.floor(Math.random()*255);
+  let b = Math.floor(Math.random()*255);
+  return 'rgba('+ r +','+ g +','+ b +',0.8)';
+}
+let tag = document.querySelectorAll('.card-tag-cloud>a');
+console.log('颜色测试',Color());
+tag.forEach((e)=>{
+  // 拼接随机颜色
+
+  // 给标签赋予随机颜色
+  e.style.color=Color();
+})
